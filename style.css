@@ -30,5 +30,15 @@
     padding: 20px;
     font-size:18px;
     font-weight: 500;
+    color:#444 ;
+    transition: 300ms ease;
+}
+
+#navbar ul li a:hover{
+    color: black;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.active{
     color: black;
 }
